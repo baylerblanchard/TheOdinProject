@@ -4,6 +4,25 @@
     <head>
         <title>This is not google.com</title>
         <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: white;}
+
+            li {
+                float: left;}
+            
+            li a{
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;}
+
+            li a:hover {background-color: greenyellow;}
+
             input.searchbar{
                 width: 25%;
                 position: relative;
@@ -29,8 +48,14 @@
                 width: 50px;}
         </style>
     </head>
-    
+
         <body>
+            <ul>
+                <li><a class="active" href="#home">About</a></li>
+                <li><a href="#news">Store</a></li>
+                <li style="float: right"><a href="#contact">Gmail</a></li>
+                <li style="float: right"><a href="#about">Images</a></li>
+              </ul>
             <img class="logo1" src="/google-homepage/00.png" >
             <img class="search" src="/google-homepage/searchblk.png" >
             <input class="searchbar" type="text">
