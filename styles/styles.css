@@ -1,0 +1,32 @@
+:root{
+    --border-color: #ddd;
+    --button-search-font: #3c4043;
+    --button-search-backround: #f8f9fa;
+    --footer-background: #f2f2f2;
+    --footer-font: #70757a;
+}
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    /* footer support */
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    /* footer support */
+    margin-bottom: 100px;
+}
+
+a{
+    
+}
