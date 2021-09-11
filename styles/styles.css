@@ -50,3 +50,33 @@ button{
 }
 
 /* NAV BAR */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.nav-link{
+    opacity: 0.85;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.nav-link-round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nav-link-round:hover{
+    background-color: #f0f0f0;
+}
