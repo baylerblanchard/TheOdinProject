@@ -133,3 +133,20 @@ button{
     min-height: 300px;
     margin-top: 50px;
 }
+
+.logo{
+    width: 272px;
+    height: 92px;
+    margin-bottom: 26px;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 30px;
+}
