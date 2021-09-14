@@ -203,5 +203,14 @@ button{
     position: absolute;
     bottom: 0;
     left: 0;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    background: var(--footer-background);
+    color: var(--footer-font);
+    font-size: 14px;
 }
+
