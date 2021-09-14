@@ -214,3 +214,40 @@ button{
     font-size: 14px;
 }
 
+.left-section,
+.right-section{
+    display: flex;
+}
+
+.right-section{
+    margin-right: 30px;
+}
+
+.footer-link{
+    display: block;
+    padding: 10px 0 10px;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+/*Media*/
+
+@media (max-width: 660px) {
+    .searchbar{
+        width: 80%;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-link{
+        padding: 8px;
+    }
+
+    .right-section{
+        margin-right: 0;
+    }
+}
