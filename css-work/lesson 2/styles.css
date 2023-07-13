@@ -1,10 +1,10 @@
 /* this is a css example */
 
-div {
-    
-}
 p {
-    background-color: rgba(215, 90, 90, 0.612);
+    background-color: rgba(215, 90, 90, 0.408);
     font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#p1 {
     color: black;
 }
