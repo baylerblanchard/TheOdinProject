@@ -1,6 +1,10 @@
 /* this is a css example */
 
 div {
-    background-color: red;
-    opacity: 25%;
+    
+}
+p {
+    background-color: rgba(215, 90, 90, 0.612);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    color: black;
 }
