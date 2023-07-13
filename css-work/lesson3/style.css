@@ -4,3 +4,11 @@ button{
     font-size: 28px;
     font-family: 'Times New Roman', Helvetica, sans-serif;
 }
+
+#butt1{
+    background-color: black;
+}
+
+#butt2{
+    background-color: yellow;
+}
