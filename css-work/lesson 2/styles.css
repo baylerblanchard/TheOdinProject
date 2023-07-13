@@ -1,2 +1,6 @@
 /* this is a css example */
 
+div {
+    background-color: red;
+    opacity: 25%;
+}
