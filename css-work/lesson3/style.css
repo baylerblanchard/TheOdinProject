@@ -1,1 +1,6 @@
-/* css file for lesson3
+/* css file for lesson3*/
+
+button{
+    font-size: 28px;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+}
