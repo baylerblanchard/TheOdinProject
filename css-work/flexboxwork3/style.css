@@ -3,7 +3,6 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
-  display: flex;
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
@@ -17,6 +16,7 @@ body {
 }
 
 .profile-image {
+  display: flex;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -25,6 +25,8 @@ body {
 }
 
 .logo {
+  display: flex;
+  justify-content: baseline;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -32,6 +34,7 @@ body {
 }
 
 button {
+  display: flex;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
