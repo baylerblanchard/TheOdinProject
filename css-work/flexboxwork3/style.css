@@ -16,7 +16,6 @@ body {
 
 .profile-image {
   margin-top: 8px;
-  display: flex;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -25,7 +24,6 @@ body {
 }
 
 .logo {
-  display: flex;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -58,5 +56,10 @@ ul {
 
 .right{
   display: flex;
-  justify-content: end;
+  justify-content: right;
+}
+
+.left{
+  display: flex;
+  justify-content: left;
 }
