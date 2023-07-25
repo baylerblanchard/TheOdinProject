@@ -77,3 +77,13 @@ button.cancel {
 .icon{
   flex-shrink: 0;
 }
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  padding: 20px;
+}
+
