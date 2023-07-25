@@ -70,8 +70,8 @@ button.cancel {
 
 .modal{
   display: flex;
-  gap: 15px;
-  padding: 8px;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon{
@@ -82,9 +82,10 @@ button.cancel {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  padding-left: 50px;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .text{
-  padding: 20px;
+  margin-bottom: 16px;
 }
