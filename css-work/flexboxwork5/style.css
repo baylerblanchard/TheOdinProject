@@ -80,10 +80,11 @@ button.cancel {
 
 .header{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-left: 50px;
 }
 
 .text{
   padding: 20px;
 }
-
