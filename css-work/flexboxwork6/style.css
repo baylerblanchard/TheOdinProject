@@ -45,4 +45,14 @@ ul{
 .left-links, .right-links{
   display: flex;
   gap: 18px;
+  justify-content: space-between;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(246, 246, 246);
 }
