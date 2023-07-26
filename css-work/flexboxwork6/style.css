@@ -33,4 +33,16 @@ a{
 
 ul{
   list-style-type: none;
+  margin-left: -35px;
+  margin-right: 5px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links{
+  display: flex;
+  gap: 18px;
 }
