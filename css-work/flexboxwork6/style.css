@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
 body {
   height: 100vh;
   margin: 0;
@@ -9,10 +8,6 @@ body {
 }
 
 img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 155px;
   width: 600px;
 }
 
@@ -24,9 +19,6 @@ button {
 }
 
 input {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
@@ -34,42 +26,45 @@ input {
   margin-bottom: 16px;
 }
 
-a{
-  text-decoration: none;
-  color: grey;
-}
+/* SOLUTION */
 
-ul{
-  list-style-type: none;
-  margin-left: -35px;
-  margin-right: 5px;
-}
-
-.header{
+body {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
-.left-links, .right-links{
-  display: flex;
-  gap: 18px;
-  justify-content: space-between;
+button {
+  padding: 8px 16px;
 }
 
-.footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.content {
+  flex: 1;
   display: flex;
-  justify-content: space-between;
-  background-color: rgb(246, 246, 246);
-}
-
-.buttons{
-  display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
 }
 
-/*this lesson is finished*/
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
