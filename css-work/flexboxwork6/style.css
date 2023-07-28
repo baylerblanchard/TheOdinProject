@@ -8,6 +8,10 @@ body {
 }
 
 img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 155px;
   width: 600px;
 }
 
@@ -19,6 +23,9 @@ button {
 }
 
 input {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
