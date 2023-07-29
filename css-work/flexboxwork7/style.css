@@ -29,3 +29,8 @@ body {
 }
 
 /*this is new work*/
+
+body{
+  display: flex;
+  flex-direction: column;
+}
