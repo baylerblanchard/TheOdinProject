@@ -1,3 +1,5 @@
+//study this program even more next couple of days
+
 const searchTermElem = document.querySelector('#searchTerm');
 const searchResultElem = document.querySelector('#searchResult');
 
