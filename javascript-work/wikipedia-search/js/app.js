@@ -1,4 +1,5 @@
 //study this program even more next couple of days
+//how does the api know what to do
 
 const searchTermElem = document.querySelector('#searchTerm');
 const searchResultElem = document.querySelector('#searchResult');
