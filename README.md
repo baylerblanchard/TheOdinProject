@@ -1,3 +1,4 @@
+check out udemy python 100 days of code
 Merry Christmas. spread peace and love always
 
 this is a note to finish later
