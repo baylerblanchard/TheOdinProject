@@ -1,3 +1,4 @@
+pretty much done with rps project just need to clean it up and add graphics
 fixed some errors 
 check out udemy python 100 days of code
 Merry Christmas. spread peace and love always
