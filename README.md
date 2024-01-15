@@ -1,3 +1,5 @@
+finish css for rps
+
 finished up the js for the rps project now i need to add better css
 find the loop issue 
 pretty much done with rps project just need to clean it up and add graphics
