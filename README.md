@@ -23,3 +23,4 @@ still working on rps ui almost finished
 finish hover function
 
 i need to pick it up a notch and finish this
+stay focused
