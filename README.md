@@ -24,3 +24,4 @@ finish hover function
 
 i need to pick it up a notch and finish this
 stay focused
+you need to lock in
