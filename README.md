@@ -28,3 +28,4 @@ you need to lock in
 
 tomorrow it begins, lock in
 have fun
+what am i doing.....?
