@@ -1,3 +1,4 @@
+peace and love always
 finish css for rps
 almost finished with the css
 finished up the js for the rps project now i need to add better css
